@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #1d1d1d;
+    color: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+}
+
+.header .logo {
+    font-size: 24px;
+    color: #fff;
+}
+
+.nav a {
+    color: #fff;
+    margin-right: 15px;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.icons .icon {
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #282828;
+}
+
+.card {
+    width: 30%;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.card h3 {
+    color: #ffa500;
+    margin: 10px 0;
+}
+
+.card p {
+    color: #ccc;
+}
+
+.description {
+    display: flex;
+    justify-content: space-around;
+    
+    padding: 20px;
+    background-color: #333;
+}
+
+.desc-item {
+    width: 30%;
+    text-align: center;
+}
+
+.desc-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.desc-item p {
+    margin: 10px 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #282828;
+}
+
+.footer .social-icons a {
+    color: #fff;
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+.footer-links div {
+    text-align: left;
+    
+}
+
+.footer-links h4 {
+    color: #ffa500;
+    margin-bottom: 10px;
+  
+}
+
+.footer-links ul {
+    list-style: none;
+
+}
+
+.footer-links ul li a {
+    color: #ccc;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+}
