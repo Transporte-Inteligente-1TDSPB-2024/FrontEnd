@@ -92,39 +92,27 @@ body {
     margin: 10px 0;
 }
 
-.footer {
-    display: flex;
-    justify-content: space-around;
+footer {
+    background-color: #ffffff;
     padding: 20px;
-    background-color: #282828;
+    color:#1a1a1a;
 }
 
-.footer .social-icons a {
-    color: #fff;
-    margin: 0 5px;
-    text-decoration: none;
+.footer-links {
+    display: flex;
+    justify-content: space-around;
 }
 
 .footer-links div {
     text-align: left;
-    
 }
 
 .footer-links h4 {
-    color: #ffa500;
     margin-bottom: 10px;
-  
 }
 
-.footer-links ul {
-    list-style: none;
-
-}
-
-.footer-links ul li a {
-    color: #ccc;
-    display: flex;
-    justify-content: space-around;
+.footer-links a {
+    color: #1a1a1a;
     text-decoration: none;
     display: block;
     margin: 5px 0;
