@@ -1,11 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Página de Login</title>
+    <link rel="stylesheet" href="../css/loguin.css">
+    <link rel="js" href="../javascript/loguin.js">
 </head>
 <body>
+    <header class="header">
+        <img src="../img/CCRLogo.png">
+        <nav class="nav">
+            <a href="./bilhete.html">Bilhete Único</a>
+            <a href="./achadosperdidos.html">Achados e Perdidos</a>
+            <a href="./verificacaolinha.html">Linhas</a>
+            <a href="./mapa.html">Mapa</a>
+            <a href="./faleconosco.html">Contato</a>
+        </nav>
     
+    <main class="login-page">
+        <div class="image-section">
+            <img src="../img/RetanguloImagemEmPePlaceHolder.png" alt="Estação de trem">
+        </div>
+        
+        <div class="login-section">
+            <img src="../img/QrCodePlaceHolder.png" alt="Logar com QR" class="qr-image">
+            <h2>Logar com o QR</h2>
+            
+            <form class="login-form">
+                <label for="login">Login</label>
+                <input type="text" id="login" placeholder="Login">
+                
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" placeholder="Senha">
+                
+                <button type="submit">Entrar</button>
+
+            </form>
+        </div>
+    </main>
+    
+    <footer class="footer">
+        <!-- Footer com links e redes sociais -->
+        <div class="social-links">
+            <a href="#">Instagram</a>
+            <a href="#">YouTube</a>
+            <a href="#">LinkedIn</a>
+        </div>
+        <div class="footer-links">
+            <div>
+                <h4>Use cases</h4>
+                <a href="#">UI design</a>
+                <a href="#">UX design</a>
+            </div>
+            <div>
+                <h4>Explore</h4>
+                <a href="#">Design</a>
+                <a href="#">Prototyping</a>
+            </div>
+            <div>
+                <h4>Resources</h4>
+                <a href="#">Blog</a>
+                <a href="#">Best practices</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
