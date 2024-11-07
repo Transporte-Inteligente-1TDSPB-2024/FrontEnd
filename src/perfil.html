@@ -1,11 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Perfil e Configurações</title>
+    <link rel="stylesheet" href="../css/perfil.css">
 </head>
 <body>
-    
+    <!-- Header -->
+    <header class="header">
+        <img src="../img/CCRLogo.png">
+        <nav class="nav">
+            <a href="./bilhete.html">Bilhete Único</a>
+            <a href="./achadosperdidos.html">Achados e Perdidos</a>
+            <a href="./verificacaolinha.html">Linhas</a>
+            <a href="./mapa.html">Mapa</a>
+            <a href="./faleconosco.html">Contato</a>
+        </nav>
+        <div class="icons">
+            <span class="icon">🔔</span>
+            <span class="icon">📁</span>
+        </div>
+    </header>
+
+    <!-- Profile Section -->
+    <section class="profile">
+        <div class="profile-picture">
+            <img src="../img/Usuarioplaceholder1.png" alt="Profile Icon">
+        </div>
+        <p class="username">Nome</p>
+        
+        <div class="profile-info">
+            <div class="info-item">
+                <label for="name">Nome do Usuário</label>
+                <input type="text" id="name" placeholder="Digite seu nome">
+                <button>...</button>
+            </div>
+            <div class="info-item">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Digite seu email">
+                <button>...</button>
+            </div>
+            <div class="info-item">
+                <label for="info1">Information</label>
+                <input type="text" id="info1" placeholder="Informação adicional">
+                <button>...</button>
+            </div>
+            <div class="info-item">
+                <label for="info2">Information</label>
+                <input type="text" id="info2" placeholder="Informação adicional">
+                <button>...</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Settings Section -->
+    <section class="settings">
+        <h2>Configurações</h2>
+        <div class="setting-item">Configuração</div>
+        <div class="setting-item">Configuração</div>
+        <div class="setting-item">Configuração</div>
+        <div class="setting-item">Configuração</div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="#">X</a>
+            <a href="#">📷</a>
+            <a href="#">📺</a>
+            <a href="#">💼</a>
+        </div>
+        <div class="footer-links">
+            <div>
+                <h4>Use cases</h4>
+                <ul>
+                    <li><a href="#">UI design</a></li>
+                    <li><a href="#">UX design</a></li>
+                    <li><a href="#">Wireframing</a></li>
+                    <li><a href="#">Diagramming</a></li>
+                    <li><a href="#">Brainstorming</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="#">Design</a></li>
+                    <li><a href="#">Prototyping</a></li>
+                    <li><a href="#">Development features</a></li>
+                    <li><a href="#">Design systems</a></li>
+                    <li><a href="#">Collaboration features</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Best practices</a></li>
+                    <li><a href="#">Colors</a></li>
+                    <li><a href="#">Color wheel</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

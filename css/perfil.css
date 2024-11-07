@@ -1,0 +1,25 @@
+footer {
+    background-color: #ffffff;
+    padding: 20px;
+    color:#1a1a1a;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-links div {
+    text-align: left;
+}
+
+.footer-links h4 {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #1a1a1a;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+}
