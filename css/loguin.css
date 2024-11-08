@@ -25,6 +25,7 @@ header nav a {
     color: #ffffff;
     margin: 0 10px;
     text-decoration: none;
+
 }
 
 header .icons span {
@@ -39,10 +40,12 @@ header .icons span {
     padding: 0.5rem 1rem;
     margin: 0.2rem;
     cursor: pointer;
+
 }
 
 .navbar button:hover {
     background-color: #555;
+    
 }
 
 .login-page {
@@ -50,6 +53,7 @@ header .icons span {
     flex-wrap: wrap;
     height: calc(100vh - 100px); /* Ajuste do tamanho da tela */
 }
+
 
 .image-section {
     flex: 1;
@@ -145,3 +149,4 @@ footer {
     display: block;
     margin: 5px 0;
 }
+
