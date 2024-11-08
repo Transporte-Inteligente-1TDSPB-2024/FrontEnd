@@ -114,35 +114,27 @@ button:hover {
 }
 
 footer {
-    display: flex;
-    justify-content: space-between;
-    background-color: #000;
-    color: #fff;
-    padding: 60px;
-    font-size: 12px;
-}
-
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    margin: auto;
-}
-
-.social-media a {
-    color: #fff;
-    margin-right: 15px;
+    background-color: #ffffff;
+    padding: 20px;
+    color:#1a1a1a;
 }
 
 .footer-links {
     display: flex;
-    gap: 50px;
+    justify-content: space-around;
 }
 
-.footer-section h4 {
+.footer-links div {
+    text-align: left;
+}
+
+.footer-links h4 {
     margin-bottom: 10px;
 }
 
-.footer-section p {
-    margin-bottom: 5px;
+.footer-links a {
+    color: #1a1a1a;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
 }
