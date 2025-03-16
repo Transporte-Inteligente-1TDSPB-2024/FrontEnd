@@ -1,26 +1,93 @@
-@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #18171C;
+  color: white;
 }
+
+/* Header */
+header {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+nav button {
+  background-color: white;
+  color: black;
+  padding: 8px 12px;
+  margin: 0 5px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+nav button:hover {
+  background-color: #e0e0e0;
+}
+/*////////////////////////////////////////////////////////*/
+
+
+
+/*////////////////////////////////////////////////////////*/
+
+/* Profile Page */
+.profile-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.profile-header {
+  background-color: #2E2C2F;
+  padding: 40px;
+  font-size: 2rem;
+  color: orange;
+  font-weight: bold;
+  text-align: center;
+}
+
+.profile-card {
+  background-color: #252429;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.profile-avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.profile-buttons button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #444;
+  border: none;
+  color: white;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.profile-buttons button:hover {
+  background-color: #555;
+}
+
+
+/*////////////////////////////////////////////////////////*/
