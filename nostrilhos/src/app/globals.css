@@ -91,3 +91,22 @@ nav button:hover {
 
 
 /*////////////////////////////////////////////////////////*/
+/* Footer */
+footer {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.footer-links img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
