@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import trem01 from "@/img/trem01.png";
+import Link from "next/link";
 
 export default function Cadastro() {
   return (
@@ -32,7 +33,10 @@ export default function Cadastro() {
 
           <button type="submit">Criar conta</button>
         </form>
+
+        <p> <Link href='/EsqueciSenha'> Esqueci minha senha </Link></p>
       </div>
+      
     </div>
   );
 }
