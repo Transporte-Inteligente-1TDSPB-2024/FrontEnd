@@ -301,10 +301,90 @@ input {
   border: none;
   border-radius: 5px;
 }
+/*////////////////////////////////////////////////////////*/
+ 
+/* Dúvidas*/
+
+.duvidas-container {
+  width: 90%;  /* Mantém um espaço nas laterais */
+  max-width: 1200px; /* Para não esticar muito em telas grandes */
+  margin: 0 auto;  /* Centraliza */
+  background-color: #1e1e1e;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.titulo {
+  background-color: #ff7f00;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.descricao {
+  text-align: center;
+  max-width: 800px;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.imagem-container {
+  width: 100%; /* Adapta a imagem ao container */
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.imagem-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.faq {
+  width: 100%;
+  max-width: 900px;
+}
+
+.pergunta {
+  background-color: black;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.pergunta h3 {
+  color: orange;
+}
+
+/* 📱 Responsividade */
+@media (max-width: 768px) {
+  .titulo {
+    font-size: 20px;
+  }
+
+  .descricao {
+    font-size: 16px;
+  }
+
+  .pergunta {
+    padding:10px 
+  }
+}
+
+
+
 
 
 /*////////////////////////////////////////////////////////*/
- /* Rodapé */
+ 
+/* Rodapé */
  .footer {
   text-align: center;
   background-color: #555;
