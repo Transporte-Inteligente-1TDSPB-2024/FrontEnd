@@ -76,9 +76,9 @@ export default function Home() {
           <Image src={imgpage3} alt="Pés em um trilho de trem" className="rounded-lg" width={220} height={146}  />
             <h3 className="font-semibold">Você não está sozinho</h3>
             <p>Se você está passando por um momento difícil e sente que não há saída, por favor, saiba que você não está sozinho. 
-            As linhas de trem não são a solução. Sua vida tem valor, e há esperança mesmo nos dias mais escuros. O que você sente agora não define seu futuro.
+            As linhas de trem não são a solução. Sua vida tem valor, e há esperança mesmo nos dias mais escuros. O que você sente agora não define seu futuro.</p>
 
-           <p> Ligue para o CVV (Centro de prevenção à Vida): 188</p></p>
+           <p> Ligue para o CVV (Centro de prevenção à Vida): 188</p>
           </div>
         </div>
       </section>
