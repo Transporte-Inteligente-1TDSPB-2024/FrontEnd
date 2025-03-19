@@ -377,6 +377,37 @@ input {
     padding:10px 
   }
 }
+/*////////////////////////////////////////////////////////*/
+ 
+/* Mapa */
+
+
+.box {
+  background-color: #333;
+  padding: 16px;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.option {
+  background-color: #e0e0e0;
+  color: black;
+  padding: 10px;
+  border-radius: 6px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.option:hover {
+  background-color: #d1d1d1;
+}
+
+.selected {
+  font-weight: bold;
+  color: blue;
+}
 
 
 
@@ -466,37 +497,6 @@ a {
 }
 
 
-/*////////////////////////////////////////////////////////*/
- 
-/* Mapa */
-
-
-.box {
-  background-color: #333;
-  padding: 16px;
-  border-radius: 8px;
-  max-width: 400px;
-  width: 100%;
-  margin-top: 20px;
-}
-
-.option {
-  background-color: #e0e0e0;
-  color: black;
-  padding: 10px;
-  border-radius: 6px;
-  margin-top: 8px;
-  cursor: pointer;
-}
-
-.option:hover {
-  background-color: #d1d1d1;
-}
-
-.selected {
-  font-weight: bold;
-  color: blue;
-}
 
 
 

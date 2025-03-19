@@ -3,6 +3,7 @@ import Image from "next/image";
 import mapa from "@/img/mapa.png";
 import { useState } from "react";
 
+
 export default function Planejamento() {
   const [rotaSelecionada, setRotaSelecionada] = useState("Mais rápida");
   const [transporteSelecionado, setTransporteSelecionado] = useState("");
