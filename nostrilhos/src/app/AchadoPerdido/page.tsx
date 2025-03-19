@@ -4,8 +4,6 @@ import trem01 from "@/img/trem01.png";
 export default function Registro() {
   return (
     <div className="container">
-      {/* Cabeçalho */}
-      <header className="header">Registro Achados e Perdidos</header>
 
       {/* Layout Principal */}
       <div className="container">

@@ -41,7 +41,7 @@ export default function Home() {
           A CCR é um grupo brasileiro que atua no setor de mobilidade urbana, sendo responsável pela operação de diversas linhas de trens metropolitanos em São Paulo por meio de suas concessionárias. A ViaMobilidade, uma empresa do Grupo CCR, é responsável pela operação, manutenção e investimentos nas linhas 8-Diamante e 9-Esmeralda do Trem Metropolitano de São Paulo por 30 anos (2022-2052), através de um contrato de concessão público-privada em parceria com o Governo do Estado de São Paulo.
           </p>
           <div className="mt-4">
-          <Link href="/perfil">
+          <Link href="/Perfil" className="bg-white text-black px-4 py-2 rounded-xl">
       <button className="bg-blue-500 text-white px-4 py-2 rounded">
         Ir para o Perfil
       </button>
@@ -59,21 +59,27 @@ export default function Home() {
           <Image src={imgpage1} alt="Estação de trem" className="rounded-lg" width={220} height={146} />
             <h3 className="font-semibold">Linhas de Metrô</h3>
             <ul className="mt-2">
-              <li>🔴 Linha 8-Diamante – Operação normal</li>
-              <li>🟢 Linha 9-Esmeralda – Intervalos regulares</li>
-              <li>🟡 Linha 4-Amarela – Funcionamento estável</li>
+              <li> 📍 Linha 8-Diamante – Operação normal✅ </li>
+              <li>📍 Linha 9-Esmeralda – Intervalos regulares✅ </li>
+              <li> 📍 Linha 4-Amarela – Funcionamento estável✅ </li>
+              <li>📍 Linha 5-Lilás – Circulação sem intercorrências ✅</li>
             </ul>
           </div>
           <div className="bg-gray-800 p-4 rounded">
             <p></p>
           <Image src={imgpage2} alt="Garota sentada" className="rounded-lg" width={220} height={146} />
             <h3 className="font-semibold">Combate a Ambulantes</h3>
-            <p>O combate a ambulantes no metrô é importante para segurança...</p>
+            <p>O combate a ambulantes no metrô é importante para garantir segurança, conforto e organização no transporte público. Aqui estão alguns pontos principais:</p>
+              <p>🚆Segurança – O comércio irregular pode obstruir passagens, dificultar evacuações em emergências e até facilitar furtos.</p>
+              <p>📏 Organização – O metrô é um ambiente de circulação rápida. Ambulantes podem atrapalhar o fluxo de passageiros, especialmente em horários de pico.</p>
           </div>
           <div className="bg-gray-800 p-4 rounded">
           <Image src={imgpage3} alt="Pés em um trilho de trem" className="rounded-lg" width={220} height={146}  />
             <h3 className="font-semibold">Você não está sozinho</h3>
-            <p>Se estiver passando por um momento difícil, saiba que não está sozinho...</p>
+            <p>Se você está passando por um momento difícil e sente que não há saída, por favor, saiba que você não está sozinho. 
+            As linhas de trem não são a solução. Sua vida tem valor, e há esperança mesmo nos dias mais escuros. O que você sente agora não define seu futuro.
+
+           <p> Ligue para o CVV (Centro de prevenção à Vida): 188</p></p>
           </div>
         </div>
       </section>
