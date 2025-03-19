@@ -381,6 +381,90 @@ input {
 
 
 
+/*////////////////////////////////////////////////////////*/
+
+
+.container {
+  width: 90%;  /* Mantém um espaço nas laterais */
+  max-width: 1200px; /* Para não esticar muito em telas grandes */
+  margin: 0 auto;  /* Centraliza */
+  background-color: #1e1e1e;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.image-side {
+  width: 100%; /* Adapta a imagem ao container */
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.form-side {
+  width: 50%;
+  background-color: #1e1e1e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 20px;
+}
+
+h2 {
+  color: orange;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+input {
+  background: #d3d3d3;
+  border: none;
+  padding: 15px;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+button {
+  background: #d3d3d3;
+  border: none;
+  padding: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+a {
+  margin-top: 20px;
+  color: orange;
+  text-decoration: none;
+}
+
+/* 📱 Responsividade */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .image-side {
+    width: 100%;
+    height: 40vh;
+  }
+
+  .form-side {
+    width: 100%;
+    height: 60vh;
+  }
+}
+
 
 /*////////////////////////////////////////////////////////*/
  
