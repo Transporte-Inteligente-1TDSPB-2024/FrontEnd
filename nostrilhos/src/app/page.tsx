@@ -1,7 +1,9 @@
 import { Metadata } from "next";
 import Image from "next/image";
 import station from "@/img/station.png";
-import imagem01logo from "@/img/imagem01logo.png";
+import imgpage1 from "@/img/imgpage1.png";
+import imgpage2 from "@/img/imgpage2.png";
+import imgpage3 from "@/img/imgpage3.png";
 import Link from 'next/link';
 
 
@@ -53,6 +55,8 @@ export default function Home() {
         <h2 className="text-lg font-bold">Verificação dos Status das Linhas</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
           <div className="bg-gray-800 p-4 rounded">
+            <p></p>
+          <Image src={imgpage1} alt="Estação de trem" className="rounded-lg" width={220} height={146} />
             <h3 className="font-semibold">Linhas de Metrô</h3>
             <ul className="mt-2">
               <li>🔴 Linha 8-Diamante – Operação normal</li>
@@ -61,10 +65,13 @@ export default function Home() {
             </ul>
           </div>
           <div className="bg-gray-800 p-4 rounded">
+            <p></p>
+          <Image src={imgpage2} alt="Garota sentada" className="rounded-lg" width={220} height={146} />
             <h3 className="font-semibold">Combate a Ambulantes</h3>
             <p>O combate a ambulantes no metrô é importante para segurança...</p>
           </div>
           <div className="bg-gray-800 p-4 rounded">
+          <Image src={imgpage3} alt="Pés em um trilho de trem" className="rounded-lg" width={220} height={146}  />
             <h3 className="font-semibold">Você não está sozinho</h3>
             <p>Se estiver passando por um momento difícil, saiba que não está sozinho...</p>
           </div>
