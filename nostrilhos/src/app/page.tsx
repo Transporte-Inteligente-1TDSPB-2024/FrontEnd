@@ -41,9 +41,9 @@ export default function Home() {
           A CCR é um grupo brasileiro que atua no setor de mobilidade urbana, sendo responsável pela operação de diversas linhas de trens metropolitanos em São Paulo por meio de suas concessionárias. A ViaMobilidade, uma empresa do Grupo CCR, é responsável pela operação, manutenção e investimentos nas linhas 8-Diamante e 9-Esmeralda do Trem Metropolitano de São Paulo por 30 anos (2022-2052), através de um contrato de concessão público-privada em parceria com o Governo do Estado de São Paulo.
           </p>
           <div className="mt-4">
-          <Link href="/Perfil" className="bg-white text-black px-4 py-2 rounded-xl">
+          <Link href="/Loguin" className="bg-white text-black px-4 py-2 rounded-xl">
       <button className="bg-blue-500 text-white px-4 py-2 rounded">
-        Ir para o Perfil
+        Ir para o Loguin
       </button>
     </Link>
           </div>
