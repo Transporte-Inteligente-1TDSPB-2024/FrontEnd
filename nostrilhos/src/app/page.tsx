@@ -34,7 +34,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="grid grid-cols-1 md:grid-cols-2 gap-6 my-6">
         <div>
-        <Image src={station} alt="Estação de trem" className="rounded-lg" width={1093} height={472} />
+        <Image src={station} alt="Estação de trem" className="rounded-lg" width={900} height={472} />
         </div>
         <div>
           <p>
@@ -43,7 +43,7 @@ export default function Home() {
           <div className="mt-4">
           <Link href="/Loguin" className="bg-white text-black px-4 py-2 rounded-xl">
       <button className="bg-blue-500 text-white px-4 py-2 rounded">
-        Ir para o Loguin
+        Ir para o Login
       </button>
     </Link>
           </div>
@@ -55,7 +55,7 @@ export default function Home() {
         <h2 className="text-lg font-bold">Verificação dos Status das Linhas</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
           <div className="bg-gray-800 p-4 rounded">
-            <p></p>
+          
           <Image src={imgpage1} alt="Estação de trem" className="rounded-lg" width={220} height={146} />
             <h3 className="font-semibold">Linhas de Metrô</h3>
             <ul className="mt-2">
@@ -66,7 +66,6 @@ export default function Home() {
             </ul>
           </div>
           <div className="bg-gray-800 p-4 rounded">
-            <p></p>
           <Image src={imgpage2} alt="Garota sentada" className="rounded-lg" width={220} height={146} />
             <h3 className="font-semibold">Combate a Ambulantes</h3>
             <p>O combate a ambulantes no metrô é importante para garantir segurança, conforto e organização no transporte público. Aqui estão alguns pontos principais:</p>
